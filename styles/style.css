@@ -26,6 +26,11 @@
   left: 454px;
 }
 
+.header__logo-image {
+  height: 100%;
+  width: 100%;
+}
+
 .header__links-list {
   list-style-type: circle;
   display: flex;
@@ -134,7 +139,7 @@
   align-items: center;
 }
 
-.cover__description-text{
+.cover__description-text {
   display: inline-block;
   font-weight: 400;
   font-size: 22px;
@@ -146,7 +151,7 @@
   word-spacing: 0.8em;
 }
 
-.bet-button{
+.bet-button {
   display: inline-block;
   background-color: rgba(1, 1, 1, 0);
   color: #FFF;
@@ -354,7 +359,7 @@
   list-style-type: none;
 }
 
-.footer__social-list-item{
+.footer__social-list-item {
   width: 48px;
   height: 48px;
 }
@@ -365,7 +370,7 @@
   width: 100%;
 }
 
-.footer__social-icon{
+.footer__social-icon {
   height: 100%;
   width: 100%;
 }
