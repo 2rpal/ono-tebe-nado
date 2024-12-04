@@ -38,38 +38,33 @@
 
     <main>
       <section class="cover">
-        <div class="overlay">
+        <div class="overlay"></div>
           <h1 class="cover__title">
-            <span class="word-left">он
-              <span class="one-leter">о</span>
+            <span class="word-left">о<span class="first-leter">но</span>
             </span>
-            <br>
-            <span class="word-center">теб
-              <span class="one-leter">е</span>
+            <span class="word-center">те<span class="second-leter">бе</span>
             </span>
-            <br>
-            <span class="word-right">н
-              <span class="one-leter">адо</span>
+            <span class="word-right">
+              <span class="third-later">н</span>ад<span class="fourth-later">о</span>
             </span>
           </h1>
           <div class="cover__description">
             <p class="cover__description-text">
               Аукцион вещей, <span class="cover__description-text_leter-spacing">в которые никто не верил</span>
             </p>
-            <button class="bet-button">Сделать ставку</button>
-          </div>
-        </div>
+            <button class="bet-button" type="button">Сделать ставку</button>
+          </div>       
       </section>
       <section class="lots">
-        <h1 class="lots__heading">лоты</h1>
+        <h2 class="lots__heading">лоты</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
             <a href="#0" class="card-link">
-              <article class="card_type_film">
+              <article class="card_type_film lots__card">
                 <div class="overlay"></div>
-                <h2 class="card__title">
+                <h3 class="card__title">
                   Фильм режиссёра, который бросил киношколу
-                </h2>
+                </h3>
                 <p class="card__text">
                   Не просто бросил, а ушёл с первой лекции. 
                   Какой была бы ваша ставка, если бы вы не знали,
@@ -80,11 +75,11 @@
           </li>
           <li class="lots__card-list-item">
             <a href="#0" class="card-link">
-              <article class="card_type_book">
+              <article class="card_type_book lots__card">
                 <div class="overlay"></div>
-                <h2 class="card__title">
+                <h3 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
-                </h2>
+                </h3>
                 <p class="card__text">
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания 
                   и с переходами на древнеанглийский. В ней одновременно 
@@ -97,11 +92,11 @@
           </li>
           <li class="lots__card-list-item">
             <a href="#0" class="card-link">
-              <article class="card_type_picture">
+              <article class="card_type_picture lots__card">
                 <div class="overlay"></div>
-                <h2 class="card__title">
+                <h3 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
-                </h2>
+                </h3>
                 <p class="card__text">
                   Ну действительно, там линия, тут кружочек, 
                   а здесь и вовсе что-то похожее на инфузорию-туфельку. 
@@ -148,14 +143,14 @@
       <address class="address">
         <a href="tel:+99995555555">+9 999 555 5555</a>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <div class="header__address">
+        <div class="address">
           <p>наб. Принсенграхт 263- 265, Амстердам</p>
         </div>
       </address>
       <nav class="footer__menu">
           <ul class="footer__menu-list">
             <li class="footer__menu-list-item">
-              <a class="footer__menu-link_active" href="">главная</a>
+              <a class="footer__menu-link footer__menu-link_active" href="">главная</a>
             </li>
             <li class="footer__menu-list-item">
               <a class="footer__menu-link" href="">посмотреть лоты</a>
